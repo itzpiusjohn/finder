@@ -2,9 +2,9 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #f4f4f4;
+  --primary-color: #dd1863d7;
   --dark-color: #333333;
-  --light-color: #f4f4f4;
+  --light-color: #c8bdbd;
   --danger-color: #dc3545;
   --success-color: #28a745;
 }
@@ -264,7 +264,7 @@ img {
 .badge-primary,
 .alert-primary {
   background: var(--primary-color);
-  color: #333;
+  color: #fff;
 }
 
 .btn-light,
@@ -370,6 +370,7 @@ table th {
   width: 100%;
   opacity: 0.9;
   margin-bottom: 1rem;
+  background-color: #dc3545;
 }
 
 .navbar ul {
